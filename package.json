@@ -42,6 +42,7 @@
     "remark-math": "^5.1.1",
     "remark-smartypants": "^2.0.0",
     "remark-toc": "^8.0.1",
+    "styled-components": "^6.0.7",
     "typescript": "5.0.4",
     "vega": "5.25.0",
     "vega-lite": "5.1.0"
@@ -52,7 +53,9 @@
     "@types/node": "18.16.0",
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.0",
+    "@types/styled-components": "^5.1.26",
     "autoprefixer": "^10.4.14",
+    "babel-plugin-styled-components": "^2.1.4",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
     "postcss": "^8.4.23",

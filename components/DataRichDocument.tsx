@@ -1,6 +1,7 @@
 import { MDXRemote } from 'next-mdx-remote';
 import dynamic from 'next/dynamic';
 import { Mermaid } from '@portaljs/core';
+import Navbar from './navbar';
 
 // Custom components/renderers to pass to MDX.
 // Since the MDX files aren't loaded by webpack, they have no knowledge of how
@@ -17,5 +18,10 @@ const components = {
 } as any;
 
 export default function DRD({ source }: { source: any }) {
-  return <MDXRemote {...source} components={components} />;
+  return (
+    <div>
+      <Navbar />
+      <MDXRemote {...source} components={components} />
+    </div>
+  );
 }
