@@ -7,6 +7,59 @@
   width: 1.25rem
 }
 
+#custom-parent-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f4f4f4; /* You can use any color you like */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px; /* Adjust this value if needed */
+  margin: auto; /* Center the div if its container is wider */
+}
+
+#custom-parent-div h1 {
+  margin-top: 0;
+  color: #333;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+#custom-parent-div p {
+  margin: 12px 0;
+  color: #666;
+  text-align: center;
+}
+
+#custom-catalog {
+  width: 100%;
+  text-align: center;
+  /* You can add other styles here as needed */
+}
+
+#custom-parent-div li::marker {
+    color: #f4f4f4; /* Makes the number marker gray */
+}
+
+#center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* This assumes you want to center it vertically for the whole viewport height */
+}
+
+#center-content > * {
+  width: 50%; /* This makes the content take up 50% of the width of its parent */
+  max-width: 800px; /* This ensures content doesn't get too wide, but you can adjust as needed */
+  margin-left: auto; /* Centering for block-level elements */
+  margin-right: auto; /* Centering for block-level elements */
+}
+
 .h-5 {
   height: 1.25rem
 }
@@ -29,7 +82,6 @@ html {
   right: 0;
   top: 3.6rem; /* multiple of $line-height used on the tooltip body (defined in tooltipBodyStyle) */
   height: 1.2rem; /* ($top + $height)/$line-height is the number of lines we want to clip tooltip text at*/
-  width: 10rem;
   background: linear-gradient(
     to right,
     rgba(255, 255, 255, 0),

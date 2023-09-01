@@ -1,5 +1,11 @@
-# Welcome to my data portal!
+<div id="custom-parent-div">
 
-List of available datasets:
+    <h1>Welcome to my data portal!</h1>
 
-<Catalog datasets={datasets} facets={['group']}/>
+    <p>List of available datasets:</p>
+
+    <div id="custom-catalog">
+        <Catalog datasets={datasets} facets={['group']}/>
+    </div>
+
+</div>

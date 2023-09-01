@@ -7,8 +7,6 @@ import clientPromise from '../lib/mddb';
 import styled from 'styled-components';
 
 const Container = styled.div`
-  padding: 60px 20px;
-  max-width: 900px;
   margin: 0 auto;
   font-family: Arial, sans-serif;
 `;
@@ -31,9 +29,11 @@ const SectionTitle = styled.h2`
 `;
 
 const Table = styled.table`
-  width: 100%;
+  width: 50%;
   border-collapse: collapse;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 `;
 
 const TableHeader = styled.th`

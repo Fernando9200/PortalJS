@@ -7,6 +7,8 @@ files: ['data.csv']
 group: 'Awesome'
 ---
 
-## Table
+<div id="center-content">
 
 <Table url="data.csv" />
+
+</div>

@@ -1,12 +1,7 @@
 ---
 group: 'Incredible'
 ---
-
-# My Incredible Dataset
-
-This is my incredible dataset.
-
-## Chart
+<div align="center">
 
 <LineChart
     title="US Population By Decade"
@@ -14,3 +9,5 @@ This is my incredible dataset.
     yAxis="Population (mi)"
     data="my-incredible-data.csv"
 />
+
+</div>
