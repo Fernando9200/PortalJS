@@ -7,8 +7,6 @@ files: ['data.csv']
 group: 'Awesome'
 ---
 
-Built with PortalJS
-
 ## Table
 
 <Table url="data.csv" />
